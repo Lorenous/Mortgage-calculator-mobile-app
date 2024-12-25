@@ -12,7 +12,7 @@ class CustomSlider extends StatelessWidget {
       required this.min,
       required this.max,
       required this.divisions,
-      this.onChanged,
+      required  this.onChanged,
       required this.sliderNewValueText});
 
   @override
